@@ -1,7 +1,7 @@
 # Sei: A Magical AI Therapy Companion
 
 <p align="center">
-  <img src="assets/sei-logo.png" alt="Sei Logo" width="180"/>
+  <img src="sei_logo.png" alt="Sei Logo" width="180"/>
 </p>
 
 <p align="center">
