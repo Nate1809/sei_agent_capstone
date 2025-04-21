@@ -1,0 +1,17 @@
+{
+    "state": {
+      "user_profile": {
+        "name": "",
+        "age": null,
+        "gender": null,
+        "faith_preference": null,
+        "concerns": [],
+        "session_count": 0
+      },
+      "session_insights": [],
+      "session_summaries": [],
+      "treatment_plan": {},
+      "session_count": 0,
+      "session_initialized": false
+    }
+  }
