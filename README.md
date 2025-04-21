@@ -93,7 +93,7 @@ adk run sei_therapist
 
 Sei uses a sophisticated multi-agent architecture that creates a seamless, magical experience:
 
-![Sei Architecture](sei-architecture.png)
+![Sei Architecture](sei_agent_architecture.jpg)
 
 The system includes:
 
