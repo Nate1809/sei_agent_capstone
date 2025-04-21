@@ -1,7 +1,7 @@
 # Sei: A Magical AI Therapy Companion
 
 <p align="center">
-  <img src="sei_logo.png" alt="Sei Logo" width="180"/>
+  <img src="assets/sei_logo.png" alt="Sei Logo" width="180"/>
 </p>
 
 <p align="center">
@@ -58,8 +58,8 @@ pip install google-adk
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/sei-therapy-agent.git
-cd sei-therapy-agent
+git clone https://github.com/Nate1809/sei_agent_capstone.git
+cd sei_agent_capstone
 
 # Install dependencies
 pip install -r requirements.txt
@@ -67,7 +67,7 @@ pip install -r requirements.txt
 
 ### 3. Set up Environment Variables
 
-Create a `.env` file in the root directory:
+Create a `.env` file in the root directory (`sei_agent_capstone`):
 
 ```
 GOOGLE_API_KEY=your_api_key_here
@@ -78,6 +78,8 @@ GOOGLE_API_KEY=your_api_key_here
 Using the ADK web interface (recommended for first-time users):
 
 ```bash
+# Make sure you're in the root directory sei_agent_capstone
+cd sei_agent_capstone
 adk web
 ```
 
@@ -86,6 +88,8 @@ Then select "sei_therapist" from the dropdown in the web interface.
 Using the command line:
 
 ```bash
+# Make sure you're in the root directory sei_agent_capstone
+cd sei_agent_capstone
 adk run sei_therapist
 ```
 
@@ -93,7 +97,7 @@ adk run sei_therapist
 
 Sei uses a sophisticated multi-agent architecture that creates a seamless, magical experience:
 
-![Sei Architecture](sei_agent_architecture.jpg)
+![Sei Architecture](assets/sei_agent_architecture.png)
 
 The system includes:
 
@@ -135,22 +139,10 @@ Unlike general LLMs, Sei can gently push back when necessary—just as a good th
 ### Seamless Experience
 Despite its complex architecture, Sei presents as a single magical presence with a consistent voice.
 
-## 🔧 Advanced Configuration
-
-For deeper customization, you can modify configuration settings in `config/settings.py`:
-
-```python
-# Example configuration options
-CRISIS_DETECTION_SENSITIVITY = "medium"  # Options: low, medium, high
-FAITH_INTEGRATION_ENABLED = True
-MEMORY_RETENTION_DAYS = 30
-```
-
 ## 📚 Development Resources
 
 - [Google ADK Documentation](https://github.com/google/agents-sdk)
 - [Gemini API Documentation](https://ai.google.dev/docs)
-- [Contributing Guidelines](CONTRIBUTING.md)
 
 ## 🔮 Future Directions
 
@@ -171,10 +163,6 @@ MEMORY_RETENTION_DAYS = 30
 - **Fernanda Uria**: For clinical psychology expertise
 - **Solange Pardo**: For the session summarization concept
 - **Marielle Morales**: For support throughout development
-
-## 📄 License
-
-This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
 
 ---
 
